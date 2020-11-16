@@ -1,7 +1,6 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    foreman (0.87.2)
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
     rack (2.2.3)
@@ -13,14 +12,15 @@ GEM
       rack (~> 2.2)
       rack-protection (= 2.1.0)
       tilt (~> 2.0)
+    sinatra-cors (1.2.0)
     tilt (2.0.10)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  foreman
   sinatra
+  sinatra-cors
 
 BUNDLED WITH
    2.1.4
